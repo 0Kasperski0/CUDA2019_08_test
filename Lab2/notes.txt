@@ -1,1 +1,37 @@
-Summary of lab classes:
+sss
+Report:
+    how to fetch info from gpu - 1st project - device Querry
+
+vector add
+    execution time with diff grid size and layouts
+
+
+
+// nvprof xx - profiling command
+
+play with data structure - size
+10^6 entries - changing layout
+plots of time/datesize
+ratio execute time/shipping the data
+as many plots as possible
+
+
+
+out1 elcount: standard+00
+out2 elcount:50000000
+out3 elcount:500000000
+onutint: elcount:500000000 data type: int
+onudouble: elcount:500000000 data type: double
+smoldata: numele:50 data type: double
+
+play with vectoradd - dimensions and profiling
+1 report per group - gitspace
+2 weeks time
+send link 
+
+
+1)querry process - describe
+2)time performamnce study vector add diffenerces ratios etc rozmiar wektora i ukad siatki
+3) grid_debug -> vector add
+any piece of code -> git
+not only plots draw some conclusions etc
