@@ -1,0 +1,24 @@
+The simple implementation of the grid topology verification kernel can be found
+in the grid_debug.cu
+In principle you can start a new project using nsight and compile it within the
+RAD, but just for fun and to get a bit more hands on please copy it to your work
+area and compile by hand:
+
+nvcc grid_debug.cu -o grid_debug
+
+and run it:
+
+./grid_debug
+
+Next, please implement the timing we discussed during the lecture and rerun the program
+noting the time performance. Since the kernel does not do anything it will be super fast.
+Try to make things more interesting and create a vector on the host and move it to the
+device and back - you may do some processing as well, but this not the point of this exercise.
+Now measure how long does it take to move data to and from the device. Next, use the nvidia
+dedicated too for profiling nvprof and compare the time measurements. To use the profiler
+just execute:
+
+nvprof ./grid_debug
+
+Play with the size of the data you transfer to the device. Make plots with the results
+as a part of the first lab report.
