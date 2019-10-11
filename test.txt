@@ -12,3 +12,4 @@ Kolejny test
 
 AAAAAAAAAAAAAAAAAAAAA
 BBBBBBBBBBBBBBBBB
+scp -r cudawdir/ 7pryga@taurus.fis.agh.edu.pl:/home/stud2017/7nazwisko
