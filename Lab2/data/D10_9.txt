@@ -1,0 +1,17 @@
+==15045== NVPROF is profiling process 15045, command: ./01
+Failed to allocate device vector A (error code out of memory)!
+[Vector addition of 1000000000 elements]
+==15045== Profiling application: ./01
+==15045== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   99.77%  388.28ms         1  388.28ms  388.28ms  388.28ms  cudaMalloc
+                    0.12%  481.70us         1  481.70us  481.70us  481.70us  cuDeviceTotalMem
+                    0.09%  350.74us        96  3.6530us     838ns  120.13us  cuDeviceGetAttribute
+                    0.01%  45.257us         1  45.257us  45.257us  45.257us  cuDeviceGetName
+                    0.00%  12.501us         1  12.501us  12.501us  12.501us  cuDeviceGetPCIBusId
+                    0.00%  4.4710us         3  1.4900us     978ns  2.3750us  cuDeviceGetCount
+                    0.00%  2.7240us         2  1.3620us  1.0480us  1.6760us  cuDeviceGet
+                    0.00%  1.3270us         1  1.3270us  1.3270us  1.3270us  cuDeviceGetUuid
+                    0.00%  1.3270us         1  1.3270us  1.3270us  1.3270us  cudaGetErrorString
+======== Error: Application returned non-zero code 1
